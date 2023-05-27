@@ -3,7 +3,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const Projects = () => {
   return (
-    <section className="h-[200vh]">
+    <section className="mb-10">
       <Container>
         <div className="flex items-center mb-8 justify-between px-6">
           <h4 className="font-medium">Work</h4>
