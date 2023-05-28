@@ -2,6 +2,7 @@ import Container from "@/components/Container";
 import Certificate from "@/components/Certificate";
 
 import Image from "next/image";
+import Link from "next/link";
 // import ProjectCard from "@/components/ProjectCard";
 
 const About = () => {
@@ -101,6 +102,37 @@ const About = () => {
           <Certificate />
           <Certificate />
         </div> */}
+        <div className="mt-20">
+          <h3 className="font-medium text-3xl mb-10">Certifications</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-xs sm:max-w-3xl mx-auto">
+            <Link
+              href="https://www.coursera.org/account/accomplishments/professional-cert/ELJYCML56LDV?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"
+              target="_blank"
+              className="w-full overflow-hidden border-2 group rounded-3xl"
+            >
+              <Image
+                className="w-full group-hover:scale-105 transition duration-500 h-full object-cover"
+                src="/img-cert-ai.jpg"
+                width={720}
+                height={720}
+                alt=""
+              />
+            </Link>
+            <Link
+              href="https://www.coursera.org/account/accomplishments/professional-cert/WL778ZQCPJY7?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"
+              target="_blank"
+              className="w-full group overflow-hidden border-2 rounded-3xl"
+            >
+              <Image
+                className="w-full group-hover:scale-105 transition duration-500 h-full object-cover"
+                src="/img-cert-datascience.jpg"
+                width={720}
+                height={720}
+                alt=""
+              />
+            </Link>
+          </div>
+        </div>
       </Container>
     </section>
   );
