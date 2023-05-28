@@ -112,7 +112,7 @@ const About = () => {
               <div className="w-full overflow-hidden border-2 group rounded-3xl">
                 <Image
                   className="w-full group-hover:scale-105 transition duration-500 h-full object-cover"
-                  src="/img-cert-ai.jpg"
+                  src="/img-cert-ai.JPG"
                   width={720}
                   height={720}
                   alt=""
@@ -126,7 +126,7 @@ const About = () => {
               <div className="w-full group overflow-hidden border-2 rounded-3xl">
                 <Image
                   className="w-full group-hover:scale-105 transition duration-500 h-full object-cover"
-                  src="/img-cert-datascience.jpg"
+                  src="/img-cert-datascience.JPG"
                   width={720}
                   height={720}
                   alt=""

@@ -8,7 +8,7 @@ const Footer = () => {
     <div>
       <Container>
         <div className="my-64">
-          <LetsChatButton className="mx-auto border-2 rounded-full hover:bg-black hover:text-white px-10 md:px-10 transition duration-300 py-4 md:py-4 font-medium text-3xl w-fit" />
+          <LetsChatButton className="mx-auto border-2 rounded-full hover:bg-black hover:text-white px-10 transition duration-300 py-6 font-medium text-3xl w-fit" />
         </div>
         <div className="flex justify-between items-start py-2 mb-4">
           <div className="flex flex-col gap-2 h-fit font-medium">
