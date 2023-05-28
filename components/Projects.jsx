@@ -1,5 +1,6 @@
 import Container from "@/components/Container";
 import ProjectCard from "@/components/ProjectCard";
+import { projects } from "@/data/projects";
 
 const Projects = () => {
   return (
@@ -14,10 +15,15 @@ const Projects = () => {
         </div>
         {/* Project Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          {projects.map(({ id, title, img, category, to }) => (
+            <ProjectCard
+              key={id}
+              title={title}
+              img={img}
+              category={category}
+              to={to}
+            />
+          ))}
         </div>
       </Container>
     </section>

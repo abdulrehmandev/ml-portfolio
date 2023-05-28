@@ -1,14 +1,14 @@
 import Container from "@/components/Container";
 import LetsChatButton from "@/components/LetsChatButton";
 import Link from "next/link";
-import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <div>
       <Container>
-        <div className="my-48">
-          <LetsChatButton className="mx-auto font-medium text-3xl w-fit" />
+        <div className="my-64">
+          <LetsChatButton className="mx-auto px-8 transition duration-300 py-4 font-medium text-3xl w-fit" />
         </div>
         <div className="flex justify-between items-start py-2 mb-4">
           <div className="flex flex-col gap-2 h-fit font-medium">
@@ -25,21 +25,17 @@ const Footer = () => {
           <div className="text-lg flex gap-4 p-2">
             <Link
               className="p-2 border-2 hover:bg-black hover:text-white transition rounded-full"
-              href="/"
+              href="https://github.com/Usama-Amjad"
+              target="_blank"
             >
               <BsGithub />
             </Link>
             <Link
               className="p-2 border-2 hover:bg-black hover:text-white transition rounded-full"
-              href="/"
+              href="https://www.linkedin.com/in/usama-amjad-a28b6a253/"
+              target="_blank"
             >
               <BsLinkedin />
-            </Link>
-            <Link
-              className="p-2 border-2 hover:bg-black hover:text-white transition rounded-full"
-              href="/"
-            >
-              <BsTwitter />
             </Link>
           </div>
         </div>
