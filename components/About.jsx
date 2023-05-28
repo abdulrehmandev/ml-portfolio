@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="my-32" id="about">
       <Container>
-        <div className="flex items-center mb-10 justify-between">
+        <div className="flex items-center mb-10 pt-8 justify-between">
           <h4 className="font-medium">About</h4>
           <div className="flex gap-8 md:text-base">
             <span className="w-14 h-[2px] mt-3 bg-black"></span>
