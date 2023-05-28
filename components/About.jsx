@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="my-32">
+    <section className="my-32" id="about">
       <Container>
         <div className="flex items-center mb-10 justify-between">
           <h4 className="font-medium">About</h4>

@@ -4,9 +4,9 @@ import { projects } from "@/data/projects";
 
 const Projects = () => {
   return (
-    <section className="mb-10">
+    <section className="mb-10" id="work">
       <Container>
-        <div className="flex items-center mb-8 justify-between px-6">
+        <div className="flex items-center my-8 justify-between px-6">
           <h4 className="font-medium">Work</h4>
           <div className="flex gap-8 md:text-base">
             <span className="w-14 h-[2px] mt-3 bg-black"></span>
