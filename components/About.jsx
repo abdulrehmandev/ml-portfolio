@@ -108,28 +108,30 @@ const About = () => {
             <Link
               href="https://www.coursera.org/account/accomplishments/professional-cert/ELJYCML56LDV?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"
               target="_blank"
-              className="w-full overflow-hidden border-2 group rounded-3xl"
             >
-              <Image
-                className="w-full group-hover:scale-105 transition duration-500 h-full object-cover"
-                src="/img-cert-ai.jpg"
-                width={720}
-                height={720}
-                alt=""
-              />
+              <div className="w-full overflow-hidden border-2 group rounded-3xl">
+                <Image
+                  className="w-full group-hover:scale-105 transition duration-500 h-full object-cover"
+                  src="/img-cert-ai.jpg"
+                  width={720}
+                  height={720}
+                  alt=""
+                />
+              </div>
             </Link>
             <Link
               href="https://www.coursera.org/account/accomplishments/professional-cert/WL778ZQCPJY7?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"
               target="_blank"
-              className="w-full group overflow-hidden border-2 rounded-3xl"
             >
-              <Image
-                className="w-full group-hover:scale-105 transition duration-500 h-full object-cover"
-                src="/img-cert-datascience.jpg"
-                width={720}
-                height={720}
-                alt=""
-              />
+              <div className="w-full group overflow-hidden border-2 rounded-3xl">
+                <Image
+                  className="w-full group-hover:scale-105 transition duration-500 h-full object-cover"
+                  src="/img-cert-datascience.jpg"
+                  width={720}
+                  height={720}
+                  alt=""
+                />
+              </div>
             </Link>
           </div>
         </div>
