@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Dog Breed Classifier",
     category: "Machine Learning,  Deep Learning",
-    to: "https://github.com/Usama-Amjad/DogBreed_Prediction_DeepLearningModel_Complete_Websit",
+    to: "https://github.com/Usama-Amjad/DogBreed_Prediction_DeepLearningModel_Complete_Website",
     img: "/img-dog-breed.avif",
   },
   {
