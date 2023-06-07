@@ -4,4 +4,4 @@
 
 <br />
 
-NextJS based app single page website using TailwindCSS. Here is the [preview](https://ml-portfolio-website.vercel.app/)
+NextJS based app single page website using TailwindCSS. Here is the [preview](https://usamamjad.vercel.app/)
