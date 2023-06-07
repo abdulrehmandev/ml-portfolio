@@ -54,7 +54,7 @@ const About = () => {
           <div className="max-w-[250px] w-full row-start-1 md:row-auto md:ml-auto aspect-square rounded-3xl overflow-hidden col-span-2">
             <Image
               className="w-full h-full object-cover"
-              src="/img-personal.jpg"
+              src="/img-personal.jpeg"
               width={500}
               height={500}
               alt=""
